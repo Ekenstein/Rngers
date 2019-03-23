@@ -7,7 +7,7 @@ namespace Rngers
     /// </summary>
     public static class RandomExtensions
     {
-        private const string DefaultAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        public const string DefaultAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
         /// <summary>
         /// Returns a random string that will have a length between
